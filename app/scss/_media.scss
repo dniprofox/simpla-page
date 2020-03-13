@@ -1,0 +1,143 @@
+@media (max-width: 1024px) {
+.nav-topbar__md {
+	display: block;
+}
+.nav-topbar {
+	display: none;
+}
+.catalog__slider-nav {
+	display: none;
+}
+.catalog__slider {
+	max-width: 100%;
+	
+}
+.slider-nav__item {
+	img {
+		max-width: 100%;
+	}	
+}
+.catalog__items {
+	margin-left: 0px;		
+}
+.slick-slide img {
+	max-width: 100%;
+}
+
+.header__menu {
+	display: none;
+}
+.menu__list-md {	
+	display: block;
+	padding: 15px 15px 0px;
+	width: 500px;
+	text-align: center;
+	flex-direction: column;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 98px;
+	background-color: #a5a6b5;
+	z-index: 100;
+	li {
+		margin-bottom: 10px;
+		border-bottom: 1.0px solid #bdc3c7;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		a {
+			color: #fff;
+			padding-bottom: 5px;
+		}
+	}
+}
+.breadcrumbs {
+	display: none;
+}
+.header__content--md {
+	display: flex;
+}
+.header__content {
+	display: none;
+}
+}
+
+@media (max-width: 880px) {
+	.catalog-item__size-box {
+    display: none;
+}
+.nav-topbar__menu {
+	display: none;
+}
+}
+
+@media (max-width: 768px) {
+	.header .menu__btn {
+    display: block;
+}
+.nav-topbar__buttons {
+	display: none;
+}
+.catalog__inner {
+	flex-direction: column;
+}
+.head__sm {
+	display: block;
+}
+.head--md {
+	display: none;
+}
+.catalog {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+}
+
+
+@media (max-width: 480px) {
+	.catalog__info-sm {				
+		display: flex;	
+	}
+	.social--md,
+	.garanty--md {
+		display: none;
+	}	
+	.catalog-item__buy-box {
+    max-width: 100%;    
+}
+	.catalog-item__button {
+		width: 100%;
+	}
+	.header__content-search {
+		display: none;
+	}
+.header__icons-menu {
+	.heart,
+	.user  {
+		display: none;
+	}
+}
+.contacts__call-md {
+	display: none;
+}
+.call-sm {
+	display: block;
+}
+.contacts__phone-md {
+	a {
+		font-size: 14px;
+	}
+}
+.catalog-item__head .head__sm {	
+		.catalog-item__title {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			font-size: 20px;
+			line-height: 26px;
+			max-width: 100%;	
+	}
+}
+.menu__list-hidden {
+	display: block;
+}
+}

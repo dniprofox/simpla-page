@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="head-topbar">
+    <div class="container">
+      <div class="nav-topbar">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav-topbar__menu">
+              <li><a href="#!">О магазине</a></li>
+              <li><a href="#!">Baby клуб</a></li>
+              <li><a href="#!">Доставка и оплата</a></li>
+              <li><a href="#!">Новости</a></li>
+              <li><a href="#!">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="nav-topbar__buttons">
+              <a href="#" class="nav-topbar__button-enter"><i class="far fa-user"></i>Вход</a>
+              <a href="#!" class="nav-topbar__button-selected"><i class="far fa-heart"></i>Избранное</a>
+              <a href="#!" class="nav-topbar__button-basket">
+                <img src="img/icons/basket.png" alt="img">
+                Корзина (<span class="basket__count">0</span> )</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="nav-topbar__contacts">
+              <div class="contacts__phone">
+                <a href="tel:+380445938239" class="contacts__phone-link">(044) 593 82 39</a>
+                <a href="tel:+380800507712" class="contacts__phone-link">0 800 50 77 12</a>
+              </div>
+              <div class="contacts__call">
+                <a data-fancybox data-src="#modal__form" href="javascript:;">Обратный звонок</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-topbar__md">
+        <div class="row">
+          <div class="col-auto">
+            <ul class="nav-topbar__menu">
+              <li><a href="#!">О магазине</a></li>
+              <li><a href="#!">Baby клуб</a></li>
+              <li><a href="#!">Доставка и оплата</a></li>
+              <li><a href="#!">Новости</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="header__contacts-md">
+              <div class="contacts__phone-md">
+                <a href="tel:+380445938239" class="contacts__phone-link">(044) 593 82 39</a>
+                <a href="tel:+380800507712" class="contacts__phone-link">0 800 50 77 12</a>
+              </div>
+              <div class="contacts__call-md">
+                <a data-fancybox data-src="#modal__form" href="javascript:;">Обратный звонок</a>
+              </div>
+              <div class="contacts__call call-sm">
+                <a data-fancybox data-src="#modal__form" href="javascript:;">Call</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__content">
+          <div class="header__contacts">
+            <div class="contacts__phone">
+              <a href="tel:+380445938239" class="contacts__phone-link">(044) 593 82 39</a>
+              <a href="tel:+380800507712" class="contacts__phone-link">0 800 50 77 12</a>
+            </div>
+            <div class="contacts__call">
+              <a data-fancybox data-src="#modal__form" href="javascript:;">Обратный звонок</a>
+            </div>
+          </div>
+          <div class="header__logo">
+            <a href="#"><img src="img/header_logo.png" alt="logo img"></a>
+          </div>
+          <div class="header__search">
+            <form>
+              <input type="text" placeholder="Поиск">
+              <button type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div> 
+        <div class="header__menu">
+          <ul class="menu__list">
+            <li><a href="#!">Игры и Игрушки</a></li>
+            <li><a href="#!">Школа и Творчество</a></li>
+            <li><a href="#!">Одежда </a></li>
+            <li><a href="#!">Обувь </a></li>
+            <li><a href="#!">Кухня и Кормление</a></li>
+            <li><a href="#!">Гигиена и Уход </a></li>
+            <li><a href="#!">Спорт и Отдых </a></li>
+            <li><a href="#!">Детская и Коляски</a></li>            
+          </ul>
+          <ul class="menu__list-hidden">
+            <li><a href="#!">О магазине</a></li>
+            <li><a href="#!">Baby клуб</a></li>
+            <li><a href="#!">Доставка и оплата</a></li>
+            <li><a href="#!">Новости</a></li>
+            <li><a href="#!">Контакты</a></li>
+          </ul>          
+        </div>       
+        <div class="header__content--md">
+          <div class="search__box">
+            <div class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="header__content-search">
+              <a class="content-search__link" href="#"><i class="fas fa-search"></i> </a>
+            </div>
+            <div class="content-search__form">
+              <form>
+                <input type="text" placeholder="Поиск">
+                <button type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="header__content-logo">
+            <a href="#"><img src="img/header_logo-md.png" alt=""></a>
+          </div>
+          <ul class="header__icons-menu">
+            <li class="heart"><a href="#"><img src="img/icons/shape_5_1639.png" alt="img"></a></li>
+            <li class="user"><a href="#"><img src="img/icons/Composed.png" alt=""></a></li>
+            <li class="basket"><a href="#"><img src="img/icons/Rectangle.png" alt=""></a></li>
+          </ul>         
+        </div>
+        <div class="header__menu-md">
+          <ul class="menu__list-md">
+            <li><a href="#!">Игры и Игрушки</a></li>
+            <li><a href="#!">Школа и Творчество</a></li>
+            <li><a href="#!">Одежда </a></li>
+            <li><a href="#!">Обувь </a></li>
+            <li><a href="#!">Кухня и Кормление</a></li>
+            <li><a href="#!">Гигиена и Уход </a></li>
+            <li><a href="#!">Спорт и Отдых </a></li>
+            <li><a href="#!">Детская и Коляски</a></li>
+            <ul class="menu__list-hidden">
+              <li><a href="#!">О магазине</a></li>
+              <li><a href="#!">Baby клуб</a></li>
+              <li><a href="#!">Доставка и оплата</a></li>
+              <li><a href="#!">Новости</a></li>
+              <li><a href="#!">Контакты</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="breadcrumbs">
+    <div class="container">
+      <div class="breadcrumbs__inner">
+        <ul class="breadcrumbs__list">
+          <li><a href="#!">Panama.ua</a><i class="fas fa-chevron-right"></i></li>
+          <li><a href="#!">Игрушки</a><i class="fas fa-chevron-right"></i></li>
+          <li><a href="#!">Детские конструкторы</a><i class="fas fa-chevron-right"></i></li>
+          <li><a href="#!">LEGO </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <section class="catalog">
+    <div class="container">
+      <div class="catalog__inner">
+        <div class="catalog-item__head head__sm">
+          <span class="catalog-item__desc"> <a href="#!">Lego Creator</a></span>
+          <h2 class="catalog-item__title">Домик на холме, большая коробка
+            с деталями и кубиками</h2>
+        </div>
+        <div class="catalog__slider">
+          <div class="catalog__slider-wrapper">
+            <div class="catalog__slider-content">
+              <div class="catalog__items">
+                <div class="catalog__item">
+                  <a href="img/slider_item1.jpg" data-fancybox="images">
+                    <img src="img/slider_item.png" alt="img">
+                  </a>
+                </div>
+                <div class="catalog__item">
+                  <a href="img/slider_item2.jpg" data-fancybox="images">
+                    <img src="img/slider_item.png" alt="img">
+                  </a>
+                </div>
+                <div class="catalog__item">
+                  <a href="img/slider_item3.jpg" data-fancybox="images">
+                    <img src="img/slider_item.png" alt="img">
+                  </a>
+                </div>
+                <div class="catalog__item">
+                  <a href="img/slider_item4.jpg" data-fancybox="images">
+                    <img src="img/slider_item.png" alt="img">
+                  </a>
+                </div>
+                <div class="catalog__item">
+                  <a href="img/slider_item5.jpg" data-fancybox="images">
+                    <img src="img/slider_item.png" alt="img">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="catalog__slider-nav">
+              <div class="slider-nav__item"><img src="img/layer_51.png" alt="img"></div>
+              <div class="slider-nav__item"><img src="img/layer_52.png" alt="img"></div>
+              <div class="slider-nav__item"><img src="img/layer_53.png" alt="img"></div>
+              <div class="slider-nav__item"><img src="img/layer_54.png" alt="img"></div>
+              <div class="slider-nav__item"><img src="img/layer_55.png" alt="img"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog-item__content">
+          <div class="catalog-item__head head--md">
+            <span class="catalog-item__desc"> <a href="#!">Lego Creator</a></span>
+            <h2 class="catalog-item__title">Домик на холме, большая коробка
+              с деталями и кубиками</h2>
+          </div>
+          <div class="catalog-item__info">
+            <div class="catalog-item__price">
+              <div class="cost">5748<span>грн.</span></div>
+              <div class="old-cost">6574<span>грн.</span></div>
+            </div>
+            <div class="catalog-item__rate">
+              <div class="rate-star"></div>
+              <span> <a href="#">54 отзыва</a></span>
+            </div>
+            <ul class="catalog-item__social social--md">
+              <li class="fb"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="vk"><a href="#!"><i class="fab fa-vk"></i></a></li>
+              <li class="google"><a href="#!"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+          <div class="catalog-item__size-box">
+            <span>Размеры</span>
+            <div class="catalog-item__size-items">
+              <div class="catalog-item__size active-size"><a href="#">35</a></div>
+              <div class="catalog-item__size"><a href="#!">37</a></div>
+              <div class="catalog-item__size"><a href="#!">39</a></div>
+              <div class="catalog-item__size"><a href="#!">41</a></div>
+              <div class="catalog-item__size"><a href="#!">43</a></div>
+              <div class="catalog-item__size"><a href="#!">39</a></div>
+              <div class="catalog-item__size"><a href="#!">41</a></div>
+            </div>
+          </div>
+          <div class="catalog-item__buy">
+            <div class="catalog-item__buy-box">
+              <span class="catalog-item__desc">В наличии!</span>
+              <span class="code">Код товара: 382743 </span>
+              <button class="catalog-item__button" type="submit">купить</button>
+            </div>
+            <div class="catalog-item__garanty garanty--md">
+              <span><a href="#">Бесплатная доставка!</a></span>
+              <span><a href="#">Гарантия</a></span>
+            </div>
+          </div>
+          <div class="catalog-item__about">
+            <div class="catalog-item__about-itle">Описание товара</div>
+            <p class="about__text">Из этой прекрасной двухэтажной виллы (LEGO № 5771) из серии LEGO Creator можно К тому
+              же из виллы можно собрать еще два других дома.Дополнительные характеристики: - работающий дверной звонок
+              со звуком собачьего лая - на верхнем этаже камин - на вилле есть гараж с машиной - на вилле есть площадка
+              для гриля со складным креслом и садовыми растениями - в набор входят мини-фигурка и собака - 3 разных
+              модели: из виллы можно собрать два других дома  
+              Размеры: 48х38х95 см
+              Возраст: 8+
+              Материал: пластмасса
+              Производитель: Lego Creator (Дания)
+              Сделано в: Дания
+              Комплектация: 714 деталей
+              Артикул: 5771</p>
+          </div>
+          <div class="catalog__info-sm">
+            <div class="catalog-item__garanty">
+              <span><a href="#">Бесплатная доставка!</a></span>
+              <span><a href="#">Гарантия</a></span>
+            </div>
+            <ul class="catalog-item__social">
+              <li class="fb"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="vk"><a href="#!"><i class="fab fa-vk"></i></a></li>
+              <li class="google"><a href="#!"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- modal -->
+  <div id="modal__form">
+    <div class="form__wrapper">
+      <div class="form__title">Оставьте контактные данные
+        для связи</div>
+      <form action="#">
+        <label >
+          <input type="text" placeholder="Ваше имя" required>
+        </label>
+        <label>
+          <input type="tel" placeholder="Ваш телефон" required>
+        </label>
+        <label>
+          <input type="email" placeholder="Ваш email" required>
+        </label>
+        <label >
+          <textarea cols="20" rows="5" placeholder="Напишите сообщение"></textarea>
+        </label>
+        <button class="form__btn" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+  <!-- ///////////////// -->
+  <!-- <div class="overlay">
+    <img class="overlay__img" src="" alt="">
+  </div> -->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.elimore.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

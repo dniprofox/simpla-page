@@ -1,0 +1,76 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "header";
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
+}
+.active {
+  color: #f39f18 
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Lato';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;  
+  color: $text;
+	overflow-x: hidden;	
+}
+input {
+  border: none;
+  outline: none;
+  display: block;
+}
+.container {  
+  max-width: 1200px;
+  margin: 0 auto;
+	padding: 0 15px; 
+	
+}
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+
+@import "media";
